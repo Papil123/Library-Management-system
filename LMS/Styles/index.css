@@ -1,0 +1,26 @@
+#navbar{
+    display: flex;
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    justify-content: space-around;
+}
+#navbar>div{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+#create{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black ;
+}
+#create form > input,select{
+  width: 400px;
+  font-size: larger;
+  height: 50px;
+  margin-top: 20px;
+}

@@ -1,0 +1,46 @@
+#navbar{
+    display: flex;
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    justify-content: space-around;
+}
+#navbar>div{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+table{
+
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+table th{
+
+    width: 200px;
+    background-color: rgba(255, 217, 0, 0.863);
+}
+
+
+table td{
+    background-color: aliceblue;
+    width: 200px;
+}
+
+#create{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black ;
+}
+#create form > input,select{
+  width: 400px;
+  font-size: larger;
+  height: 50px;
+  margin-top: 20px;
+}
